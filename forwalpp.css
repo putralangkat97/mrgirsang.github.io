@@ -1,0 +1,26 @@
+body{
+	font-family: "Century Gothic",sans-serif;
+	background-image: linear-gradient(125deg,#157363,#443fa5,#3ae354,#eab44a,#dd3d84);
+	background-size: 12000px ;
+	animation: bganimation 15s infinite;
+}
+.gambarWalpap h2{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+table td a{
+	text-decoration: none;
+	color: #7a5914;
+	font-weight: bold;
+}
+@keyframes bganimation{
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
